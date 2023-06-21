@@ -33,6 +33,7 @@ public class deshboard extends AppCompatActivity {
         String bulletPoints = getString(R.string.bullet_points);
 
 
+
         Sachin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -303,10 +304,11 @@ public class deshboard extends AppCompatActivity {
         ClubBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(deshboard.this, club.class);
+                startActivity(intent);
+                finish();
             }
         });
-
 
 
 

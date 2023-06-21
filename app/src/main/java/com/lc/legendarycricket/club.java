@@ -16,7 +16,7 @@ import java.io.ByteArrayOutputStream;
 
 public class club extends AppCompatActivity {
 
-    LinearLayout club;
+    LinearLayout club,playerBtn;
     ConstraintLayout mumbai,sydney,kolkata,rajasthan,comill,chennai;
 
     @Override
@@ -25,8 +25,9 @@ public class club extends AppCompatActivity {
         setContentView(R.layout.activity_club);
 
         club = findViewById(R.id.clubicon);
+        playerBtn = findViewById(R.id.player);
 
-        club.setOnClickListener(new View.OnClickListener() {
+        playerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(club.this,deshboard.class));
