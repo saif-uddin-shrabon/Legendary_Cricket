@@ -11,6 +11,8 @@ import android.text.Html;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 import java.io.ByteArrayOutputStream;
 
 public class deshboard extends AppCompatActivity {
@@ -77,6 +79,7 @@ public class deshboard extends AppCompatActivity {
                 intent.putExtra("byteArray", bs.toByteArray());
 
                 startActivity(intent);
+                Animatoo.INSTANCE.animateSlideDown(deshboard.this);
 
             }
         });
@@ -118,6 +121,7 @@ public class deshboard extends AppCompatActivity {
                 intent.putExtra("byteArray", bs.toByteArray());
 
                 startActivity(intent);
+                Animatoo.INSTANCE.animateFade(deshboard.this);
             }
         });
 
@@ -162,6 +166,7 @@ public class deshboard extends AppCompatActivity {
                 intent.putExtra("byteArray", bs.toByteArray());
 
                 startActivity(intent);
+                Animatoo.INSTANCE.animateSlideUp(deshboard.this);
 
             }
         });
@@ -205,6 +210,7 @@ public class deshboard extends AppCompatActivity {
                 intent.putExtra("byteArray", bs.toByteArray());
 
                 startActivity(intent);
+                Animatoo.INSTANCE.animateDiagonal(deshboard.this);
 
             }
         });
@@ -248,6 +254,7 @@ public class deshboard extends AppCompatActivity {
 
                 startActivity(intent);
 
+                Animatoo.INSTANCE.animateSwipeLeft(deshboard.this);
             }
         });
 
@@ -291,6 +298,7 @@ public class deshboard extends AppCompatActivity {
                 intent.putExtra("byteArray", bs.toByteArray());
 
                 startActivity(intent);
+                Animatoo.INSTANCE.animateWindmill(deshboard.this);
 
             }
         });
@@ -306,6 +314,7 @@ public class deshboard extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(deshboard.this, club.class);
                 startActivity(intent);
+                Animatoo.INSTANCE.animateSlideRight(deshboard.this);
                 finish();
             }
         });
@@ -313,6 +322,7 @@ public class deshboard extends AppCompatActivity {
 
 
     }
+
 
 
 }

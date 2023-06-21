@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 import java.io.ByteArrayOutputStream;
 
 public class club extends AppCompatActivity {
@@ -31,6 +33,7 @@ public class club extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(club.this,deshboard.class));
+                Animatoo.INSTANCE.animateSlideLeft(club.this);
                 finish();
             }
         });
