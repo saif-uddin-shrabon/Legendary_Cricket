@@ -13,7 +13,8 @@
         android:theme="@style/Theme.LegendaryCricket"
         tools:targetApi="31">
         <activity
-            android:name=".about_club"
+
+            android:name=".DetailsActivity"
             android:exported="false" />
         <activity
             android:name=".deshboard"

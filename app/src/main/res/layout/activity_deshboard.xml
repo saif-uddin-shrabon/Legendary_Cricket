@@ -44,6 +44,7 @@
             android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/sachintendulkar"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -91,7 +92,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Test Cricket"
+                                android:text="ODI Cricket"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 
@@ -155,7 +156,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Test Cricket"
+                                android:text="T20I Cricket"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 
@@ -164,7 +165,7 @@
 
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="2006-2007"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -190,6 +191,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/mashrafi"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -201,7 +203,7 @@
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/sc_icon"
+                    android:src="@drawable/mashrafi"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -237,7 +239,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Test Cricket"
+                                android:text="ODI Cricket"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 
@@ -245,7 +247,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="2001-2020"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -276,7 +278,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="2003-2019"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -301,7 +303,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Test Cricket"
+                                android:text="T20I Cricket"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 
@@ -310,7 +312,7 @@
 
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="2006-2019"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -327,7 +329,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Sachin Tendulkar"
+                        android:text="Masrafi Bin Mortoza"
                         android:textColor="@color/white"
                         android:textAlignment="center"
                         android:textSize="30dp"/>
@@ -336,6 +338,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/BrainLara"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -347,7 +350,7 @@
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/sc_icon"
+                    android:src="@drawable/brainlara"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -383,7 +386,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Test Cricket"
+                                android:text="ODI Cricket"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 
@@ -422,7 +425,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="1990-2007"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -447,7 +450,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Test Cricket"
+                                android:text="T20I Cricket"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 
@@ -456,7 +459,7 @@
 
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="2007-2010"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -473,7 +476,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Sachin Tendulkar"
+                        android:text="Brian Lara"
                         android:textColor="@color/white"
                         android:textAlignment="center"
                         android:textSize="30dp"/>
@@ -482,6 +485,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/muttiahmuralitharan"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -493,7 +497,7 @@
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/sc_icon"
+                    android:src="@drawable/muttiahmuralitharan"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -529,7 +533,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Test Cricket"
+                                android:text="ODI Cricket"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 
@@ -537,7 +541,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="1993-2011"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -568,7 +572,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="1992-2010"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -593,7 +597,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Test Cricket"
+                                android:text="T20I Cricket"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 
@@ -602,7 +606,7 @@
 
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="2006-2014"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -619,7 +623,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Sachin Tendulkar"
+                        android:text="Muttiah Muralitharan"
                         android:textColor="@color/white"
                         android:textAlignment="center"
                         android:textSize="30dp"/>
@@ -628,6 +632,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/shanewarne"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -639,7 +644,7 @@
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/sc_icon"
+                    android:src="@drawable/shanewarne"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -675,7 +680,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Test Cricket"
+                                android:text="ODI Cricket"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 
@@ -683,7 +688,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="1992-2007"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -714,7 +719,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="1992-2007"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -739,7 +744,7 @@
                                 android:textSize="20dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Test Cricket"
+                                android:text="T20I Cricket"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 
@@ -748,7 +753,7 @@
 
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1989-2013"
+                                android:text="2004-2007"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -765,7 +770,154 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Sachin Tendulkar"
+                        android:text="Shane Warne"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/imrankhan"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/card_design">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/imrankhan"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginBottom="50dp"/>
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints"
+                    android:layout_marginBottom="50dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/tenis_icon" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ODI Cricket"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1971-2092"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/crick" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Test Cricket"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1971-2092"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/cricket" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="T20I Cricket"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:textSize="20dp"
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0-0"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:backgroundTint="#2c3343"
+                    android:background="@drawable/card_design"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:layout_constraintBottom_toBottomOf="parent" >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Imran Khan"
                         android:textColor="@color/white"
                         android:textAlignment="center"
                         android:textSize="30dp"/>
@@ -791,6 +943,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:orientation="horizontal" >
         <LinearLayout
+            android:id="@+id/playersegment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -810,6 +963,7 @@
             android:layout_width="100dp"
             android:layout_height="1dp"/>
         <LinearLayout
+            android:id="@+id/Club"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
