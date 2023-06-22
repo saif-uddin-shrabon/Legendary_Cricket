@@ -955,7 +955,7 @@
             android:orientation="vertical"
             >
             <ImageView
-                android:src="@drawable/cricketer22"
+                android:src="@drawable/cricketer2"
                 android:layout_width="40dp"
                 android:layout_height="40dp"/>
             <TextView
@@ -963,7 +963,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Player"
-                android:textColor="@color/black"/>
+                android:textColor="@color/white"/>
         </LinearLayout>
         <Space
             android:layout_width="100dp"
@@ -975,7 +975,7 @@
             android:orientation="vertical"
             >
             <ImageView
-                android:src="@drawable/trophy2"
+                android:src="@drawable/trophy"
                 android:layout_width="40dp"
                 android:layout_height="40dp"/>
             <TextView
@@ -983,7 +983,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Club"
-                android:textColor="@color/white"/>
+                android:textColor="@color/black"/>
         </LinearLayout>
 
     </LinearLayout>
