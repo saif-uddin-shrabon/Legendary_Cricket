@@ -35,7 +35,7 @@
         </LinearLayout>
 
         <ScrollView
-            android:layout_marginBottom="80dp"
+            android:layout_marginBottom="70dp"
             android:id="@+id/scrollView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -786,9 +786,8 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/imrankhan"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
+
+                    android:layout_margin="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:backgroundTint="@color/white"
