@@ -1,17 +1,23 @@
 package com.lc.legendarycricket;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 
 public class DetailsActivity extends AppCompatActivity {
 
     TextView pname,pbiograpy,ptotalrun,ptotalmatchplayed,ptestmatched,podi,pt20matches,pachivement;
     ImageView coverphoto;
+    ImageView imgback;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +33,7 @@ public class DetailsActivity extends AppCompatActivity {
         pt20matches = findViewById(R.id.t20matches);
         pachivement = findViewById(R.id.achivment);
         coverphoto = findViewById(R.id.photo);
+        imgback = findViewById(R.id.arraw);
 
 
         String playername = getIntent().getExtras().getString("playername","defaultKey");
@@ -51,7 +58,29 @@ public class DetailsActivity extends AppCompatActivity {
         pachivement.setText(achivement);
 
 
+        imgback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DetailsActivity.this,deshboard.class));
+                Animatoo.INSTANCE.animateSwipeLeft(DetailsActivity.this);
+                finish();
+            }
+        });
 
+
+
+        DetailsActivity.this.getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+
+                startActivity(new Intent(DetailsActivity.this,deshboard.class));
+                Animatoo.INSTANCE.animateSwipeLeft(DetailsActivity.this);
+                finish();
+
+            }
+        });
 
     }
+
+
 }

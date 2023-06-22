@@ -192,6 +192,7 @@ public class club extends AppCompatActivity {
         intent.putExtra("details", details);
 
         startActivity(intent);
+        Animatoo.INSTANCE.animateSwipeRight(club.this);
     }
 
 }
