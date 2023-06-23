@@ -18,7 +18,7 @@ import java.io.ByteArrayOutputStream;
 public class deshboard extends AppCompatActivity {
 
     ConstraintLayout Sachin,Mashrafi,BrainLara,muttiah,shane,imran;
-    LinearLayout ClubBtn;
+    LinearLayout ClubBtn,history2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,7 @@ public class deshboard extends AppCompatActivity {
         imran = findViewById(R.id.imrankhan);
         ClubBtn = findViewById(R.id.Club);
         String bulletPoints = getString(R.string.bullet_points);
+        history2 = findViewById(R.id.history);
 
 
 
@@ -318,6 +319,18 @@ public class deshboard extends AppCompatActivity {
                 finish();
             }
         });
+
+        history2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(deshboard.this, history.class);
+                startActivity(intent);
+                Animatoo.INSTANCE.animateSlideRight(deshboard.this);
+                finish();
+            }
+        });
+
+
 
 
 

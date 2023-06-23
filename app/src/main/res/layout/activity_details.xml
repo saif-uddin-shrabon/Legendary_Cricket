@@ -263,7 +263,7 @@ Tendulkar is a national icon in India and is widely respected for his achievemen
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/trophy" />
+                        android:src="@drawable/trophy2" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -276,7 +276,7 @@ Tendulkar is a national icon in India and is widely respected for his achievemen
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/trophy" />
+                        android:src="@drawable/trophy2" />
                 </LinearLayout>
 
             </LinearLayout>

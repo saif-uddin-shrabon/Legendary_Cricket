@@ -69,16 +69,7 @@ public class DetailsActivity extends AppCompatActivity {
 
 
 
-        DetailsActivity.this.getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
-            @Override
-            public void handleOnBackPressed() {
 
-                startActivity(new Intent(DetailsActivity.this,deshboard.class));
-                Animatoo.INSTANCE.animateSwipeLeft(DetailsActivity.this);
-                finish();
-
-            }
-        });
 
     }
 

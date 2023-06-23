@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".historydetails"
+    android:background="#2c3343"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#353e5d"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal" >
+        <ImageView
+
+            android:id="@+id/arraw1"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="About Club"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/card_design"
+        android:padding="30dp"
+        android:src="@drawable/mmb_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mumbai Indians"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Mumbai Indians are a professional franchise cricket team based in Mumbai, Maharashtra, that competes in the Indian Premier League. Founded in 2008, the team is owned by India's biggest conglomerate, Reliance Industries, through its 100% subsidiary Indiawin Sports. Since its establishment, the team has played its home matches in the 33,108-capacity Wankhede Stadium in Mumbai.
+In 2017, the Mumbai Indians became the first franchise to cross the $100 million mark in brand value among the IPL franchises.[2] The brand value of Mumbai Indians, in 2019, is estimated to be around ₹809 crore (roughly $115 million), the highest among all the IPL franchises for the fourth consecutive year.[3]
+Mumbai Indians won the 2011 Champions League Twenty20 after beating Royal Challengers Bangalore by 31 runs in the final. The team won the double by winning its first IPL title, in 2013, by defeating Chennai Super Kings by 23 runs in the final, and then defeated the Rajasthan Royals by 33 runs to win its second Champions League Twenty20 title later that year.[4][5] They won their second IPL title on 24 May 2015 by defeating the Chennai Super Kings by 41 runs in the final and became the third team to win more than one IPL title. On 21 May 2017, they won their third IPL title by defeating the Rising Pune Supergiant by 1 run in a thrilling final, thus becoming the first team to win three IPL titles.[6] While playing the tournament, they won their 100th T20, becoming the first team to do so. In 2019, they repeated the same feat as they won a record breaking fourth IPL title, by beating CSK by just 1 run on 12 May 2019 in the IPL Final. They became the first team to win the IPL title for the fifth time, by beating Delhi Capitals by 5 wickets on 10 November 2020 in the IPL Final.[7]"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="19dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
