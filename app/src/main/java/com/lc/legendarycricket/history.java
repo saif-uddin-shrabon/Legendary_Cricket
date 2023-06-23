@@ -18,7 +18,7 @@ public class history extends AppCompatActivity {
 
 
     LinearLayout club,playerBtn;
-    ConstraintLayout birthof,test,odi,t20,icc,;
+    ConstraintLayout birthof,test,odi,t20,icc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -162,7 +162,7 @@ public class history extends AppCompatActivity {
     }
 
     private void dataPass(String name, String details, int drawable) {
-        Intent intent = new Intent(history.this,about_club.class);
+        Intent intent = new Intent(history.this,historydetails.class);
 
         Bitmap bitmap = BitmapFactory.decodeResource
                 (getResources(), drawable); // your bitmap
