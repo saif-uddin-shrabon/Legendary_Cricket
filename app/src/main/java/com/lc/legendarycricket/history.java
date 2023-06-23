@@ -38,11 +38,11 @@ public class history extends AppCompatActivity {
             }
         });
 
-        birthof = findViewById(R.id.mumbai);
-        test = findViewById(R.id.sydney);
-        odi = findViewById(R.id.kolkata);
-        t20 = findViewById(R.id.raj);
-        icc = findViewById(R.id.comilla);
+        birthof = findViewById(R.id.bh);
+        test = findViewById(R.id.test);
+        odi = findViewById(R.id.odi);
+        t20 = findViewById(R.id.t20);
+        icc = findViewById(R.id.icc);
 
 
         birthof.setOnClickListener(new View.OnClickListener() {
@@ -103,15 +103,7 @@ public class history extends AppCompatActivity {
                         "\n" +
                         "The first Cricket World Cup was held in 1975 in England, providing a platform for teams to compete in ODI cricket on a global scale. The tournament garnered immense popularity and showcased the intense competition among cricketing nations. The West Indies emerged as the champions, setting the stage for future editions of the World Cup.\n" +
                         "\n" +
-                        "ODI cricket continued to gain momentum throughout the years, captivating fans with its thrilling encounters, close finishes, and memorable performances. The limited-overs format became a breeding ground for innovation, with players like Vivian Richards, Sachin Tendulkar, and AB de Villiers pushing the boundaries of what was considered possible in the game.\n" +
-                        "\n" +
-                        "As the popularity of ODI cricket soared, several iconic moments etched themselves into cricketing folklore. From the tied semi-final between Australia and South Africa in the 1999 World Cup to India's dramatic victory in the 2011 final on home soil, ODI cricket has produced countless unforgettable moments.\n" +
-                        "\n" +
-                        "With the rise of T20 cricket in the 2000s, the ODI format faced competition but managed to retain its significance. The International Cricket Council (ICC) introduced bilateral ODI series and continued organizing the Cricket World Cup, ensuring that this format continued to thrive.\n" +
-                        "\n" +
-                        "Today, ODI cricket remains an integral part of the international cricket calendar. It provides a platform for teams to showcase their skills, compete for prestigious trophies, and entertain fans with its mix of power-hitting, skilled bowling, and strategic gameplay.\n" +
-                        "\n" +
-                        "In conclusion, ODI cricket revolutionized the game, offering a shorter and more dynamic format that captivated audiences worldwide. The format's evolution, the staging of Cricket World Cups, and the countless memorable moments have cemented ODI cricket's status as a cherished and iconic part of the cricketing landscape.",R.drawable.odigame);
+                        "ODI cricket continued to gain momentum throughout the years, captivating fans with its thrilling encounters, close finishes, and memorable performances. The limited-overs format became a breeding ground for innovation, with players like Vivian Richards, Sachin Tendulkar, and AB de Villiers pushing the boundaries of what was considered possible in the game.",R.drawable.odigame);
             }
         });
         t20.setOnClickListener(new View.OnClickListener() {
@@ -188,7 +180,7 @@ public class history extends AppCompatActivity {
         intent.putExtra("details", details);
 
         startActivity(intent);
-        finish();
+
         Animatoo.INSTANCE.animateSwipeRight(history.this);
     }
 
