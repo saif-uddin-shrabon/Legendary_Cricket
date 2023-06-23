@@ -18,7 +18,7 @@ import java.io.ByteArrayOutputStream;
 
 public class club extends AppCompatActivity {
 
-    LinearLayout club,playerBtn;
+    LinearLayout club,playerBtn,history2;
     ConstraintLayout mumbai,sydney,kolkata,rajasthan,comill,chennai;
 
     @Override
@@ -28,12 +28,24 @@ public class club extends AppCompatActivity {
 
         club = findViewById(R.id.clubicon);
         playerBtn = findViewById(R.id.player);
+        history2 = findViewById(R.id.historyclub);
 
         playerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(club.this,deshboard.class));
                 Animatoo.INSTANCE.animateSlideLeft(club.this);
+                finish();
+            }
+        });
+
+
+        history2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(club.this, history.class);
+                startActivity(intent);
+                Animatoo.INSTANCE.animateSlideRight(club.this);
                 finish();
             }
         });

@@ -26,6 +26,7 @@ public class historydetails extends AppCompatActivity {
         title = findViewById(R.id.textView_history);
         photo = findViewById(R.id.imageView_history);
         details = findViewById(R.id.details_history);
+        imgback = findViewById(R.id.arraw8);
 
 
 
@@ -41,6 +42,14 @@ public class historydetails extends AppCompatActivity {
         details.setText(detail);
 
 
+        imgback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(historydetails.this,history.class));
+                Animatoo.INSTANCE.animateSwipeLeft(historydetails.this);
+                finish();
+            }
+        });
 
 
 

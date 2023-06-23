@@ -32,8 +32,7 @@ public class deshboard extends AppCompatActivity {
         shane = findViewById(R.id.shanewarne);
         imran = findViewById(R.id.imrankhan);
         ClubBtn = findViewById(R.id.Club);
-        String bulletPoints = getString(R.string.bullet_points);
-        history2 = findViewById(R.id.history);
+        history2 = findViewById(R.id.history2);
 
 
 
