@@ -447,7 +447,7 @@
                 android:textAlignment="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Club"
+                android:text="Hisotry"
                 android:textColor="@color/white"/>
         </LinearLayout>
 

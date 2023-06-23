@@ -2,16 +2,21 @@ package com.lc.legendarycricket;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 
 public class historydetails extends AppCompatActivity {
 
     TextView title,details;
     ImageView photo;
+    ImageView imgback;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +26,7 @@ public class historydetails extends AppCompatActivity {
         title = findViewById(R.id.textView_history);
         photo = findViewById(R.id.imageView_history);
         details = findViewById(R.id.details_history);
+
 
 
         String name = getIntent().getExtras().getString("name","defaultKey");
@@ -33,6 +39,10 @@ public class historydetails extends AppCompatActivity {
         }
         title.setText(name);
         details.setText(detail);
+
+
+
+
 
 
     }
